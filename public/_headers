@@ -1,0 +1,8 @@
+# Response headers. Cloudflare Pages and Netlify both read this file.
+# It lives in public/ so it ships inside out/ and every uploaded zip.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
