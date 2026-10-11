@@ -1,7 +1,7 @@
 // Every visible word on the site lives here. The résumé PDF is generated from it too.
 
 /** Flip to true once github.com/DaivikChawla has at least one public repo (this one). */
-export const SHOW_GITHUB = false;
+export const SHOW_GITHUB = true;
 
 export const meta = {
   name: "Daivik Chawla",
