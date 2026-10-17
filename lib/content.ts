@@ -148,8 +148,8 @@ export const howIBuild = {
   ],
 };
 
-export const gdg = {
-  header: "What I’d bring to GDG",
+export const team = {
+  header: "What I’d bring to the team",
   paragraphs: [
     "So far I’ve mostly built alone. I want to build with people who care about this as much as I do.",
     "What I’d bring: I know how to take something from an idea to a live product before the deadline, and I know how to talk to the people it’s for. I’d love to run hands-on sessions on building with AI tools — take a room from an empty folder to a live website in one evening.",
@@ -157,7 +157,7 @@ export const gdg = {
 };
 
 export const footer = {
-  line: "If you’re reading this for GDG recruitment, thanks for making it to the bottom.",
+  line: "If you’re reviewing my application, thanks for making it to the bottom.",
   smallPrint: "Built by me, with the same tools I’d love to teach.",
   copyright: "© 2026 Daivik Chawla",
 };

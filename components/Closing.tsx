@@ -1,4 +1,4 @@
-import { about, footer, footerLinks, gdg, howIBuild, meta } from "@/lib/content";
+import { about, footer, footerLinks, team, howIBuild, meta } from "@/lib/content";
 import { ArrowUpRight } from "./Icons";
 
 export function HowIBuild() {
@@ -51,16 +51,16 @@ export function About() {
   );
 }
 
-export function Gdg() {
+export function Team() {
   return (
-    <section className="gdg" id="gdg" aria-labelledby="gdg-title">
+    <section className="team" id="team" aria-labelledby="team-title">
       <div className="wrap">
-        <h2 className="sec-title" id="gdg-title">
-          {gdg.header}
+        <h2 className="sec-title" id="team-title">
+          {team.header}
         </h2>
-        <div className="gdg-body">
-          <p className="gdg-lead">{gdg.paragraphs[0]}</p>
-          <p>{gdg.paragraphs[1]}</p>
+        <div className="team-body">
+          <p className="team-lead">{team.paragraphs[0]}</p>
+          <p>{team.paragraphs[1]}</p>
         </div>
       </div>
     </section>

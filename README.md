@@ -1,6 +1,6 @@
 # daivik.mysterystudios.xyz
 
-My personal site. One page, built for my application to GDG on Campus TIET (2026–27).
+My personal site. One page that shows what I build and how I work.
 
 ![The finished world at golden hour](screenshots/moment-1440-T6.jpg)
 

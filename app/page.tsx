@@ -1,4 +1,4 @@
-import { About, Footer, Gdg, HowIBuild } from "@/components/Closing";
+import { About, Footer, HowIBuild, Team } from "@/components/Closing";
 import { Hero, Masthead, ProofStrip } from "@/components/Hero";
 import { Story } from "@/components/Story";
 import { Stage } from "@/components/world/Stage";
@@ -16,7 +16,7 @@ export default function Home() {
         </div>
         <HowIBuild />
         <About />
-        <Gdg />
+        <Team />
       </main>
       <Footer />
     </>

@@ -310,7 +310,7 @@ ul {
 
 .how,
 .about,
-.gdg,
+.team,
 .foot {
   position: relative;
   z-index: 1;
@@ -1082,30 +1082,30 @@ ul {
   flex: none;
 }
 
-/* ── GDG + footer: blue hour ────────────────────────────────── */
+/* ── team + footer: blue hour ────────────────────────────────── */
 
-.gdg {
+.team {
   background: var(--cobalt);
   color: var(--white);
   padding: 128px 0 24px;
 }
 
-.gdg ::selection,
+.team ::selection,
 .foot ::selection {
   background: var(--white);
   color: var(--cobalt);
 }
 
-.gdg :focus-visible,
+.team :focus-visible,
 .foot :focus-visible {
   outline-color: var(--white);
 }
 
-.gdg .sec-title {
+.team .sec-title {
   max-width: 7.2em;
 }
 
-.gdg-body {
+.team-body {
   margin-top: 56px;
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -1115,7 +1115,7 @@ ul {
   color: var(--mute);
 }
 
-.gdg-lead {
+.team-lead {
   grid-column: 1 / span 6;
   font-weight: 500;
   font-size: clamp(22px, 2.2vw, 30px);
@@ -1124,7 +1124,7 @@ ul {
   color: var(--white);
 }
 
-.gdg-body p:not(.gdg-lead) {
+.team-body p:not(.team-lead) {
   grid-column: 8 / span 5;
 }
 
@@ -1291,8 +1291,8 @@ ul {
   .about .sec-title,
   .about-body,
   .about .outside,
-  .gdg-lead,
-  .gdg-body p:not(.gdg-lead) {
+  .team-lead,
+  .team-body p:not(.team-lead) {
     grid-column: 1 / -1;
     grid-row: auto;
   }
@@ -1500,11 +1500,11 @@ ul {
     font-size: 16.5px;
   }
 
-  .gdg {
+  .team {
     padding: 96px 0 8px;
   }
 
-  .gdg-body {
+  .team-body {
     margin-top: 36px;
     font-size: 16.5px;
   }
